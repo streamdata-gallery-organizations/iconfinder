@@ -7,169 +7,174 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconf
 x-kinRank: "7"
 x-alexaRank: "4089"
 tags: Iconfinder
-created: "2018-06-26"
-modified: "2018-06-26"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Icon Finder Get author details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get author details
+  x-api-slug: authorsauthorid-get
   description: Get details about a specific author identified by a unique ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///authors/{authorID}
-  tags: Authors
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/authorsauthorid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/authorsauthorid-get-openapi.md
-- name: Icon Finder List all categories
-  x-api-slug: icon-finder
+- name: Icon Finder - List all categories
+  x-api-slug: categories-get
   description: List all categories sorted ascendingly by their identifier.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///categories
-  tags: Categories
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/categories-get-openapi.md
-- name: Icon Finder Search for icons
-  x-api-slug: icon-finder
+- name: Icon Finder - Search for icons
+  x-api-slug: iconssearch-get
   description: Search through icons by various criteria. The returned list of icons
     is ordered descendingly by popularit
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///icons/search
-  tags: Icons,Search
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/iconssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/iconssearch-get-openapi.md
-- name: Icon Finder Get license details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get license details
+  x-api-slug: licenseslicenseid-get
   description: Get details about a specific license by its unique ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///licenses/{licenseID}
-  tags: Licenses
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/licenseslicenseid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/licenseslicenseid-get-openapi.md
-- name: Icon Finder Get style details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get style details
+  x-api-slug: stylesstyleid-get
   description: Get details about a specific style identified by its identifier.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///styles/{styleID}
-  tags: Styles
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/stylesstyleid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/stylesstyleid-get-openapi.md
-- name: Icon Finder Get Authentication User.
-  x-api-slug: icon-finder
+- name: Icon Finder - Get Authentication User.
+  x-api-slug: user-get
   description: Gets an authenticated user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///user
-  tags: User
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/user-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/user-get-openapi.md
-- name: Icon Finder Get category details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get category details
+  x-api-slug: v2categoriescategoryid-get
   description: Get details about a specific category identified by its identifier.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///v2/categories/{categoryID}
-  tags: Categories
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2categoriescategoryid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2categoriescategoryid-get-openapi.md
-- name: Icon Finder Get icon details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get icon details
+  x-api-slug: v2iconsiconid-get
   description: Get details about a specific ico
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///v2/icons/{iconID}
-  tags: Icons
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2iconsiconid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2iconsiconid-get-openapi.md
-- name: Icon Finder List all icons in an icon set
-  x-api-slug: icon-finder
+- name: Icon Finder - List all icons in an icon set
+  x-api-slug: v2iconsetsiconidicons-get
   description: Provides a list of all icons in an icon set sorted descendingly by
     the popularity of the icons.List all icons in an icon set
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///v2/iconsets/{iconID}/icons
-  tags: Icons
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2iconsetsiconidicons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2iconsetsiconidicons-get-openapi.md
-- name: Icon Finder List all styles
-  x-api-slug: icon-finder
+- name: Icon Finder - List all styles
+  x-api-slug: v2styles-get
   description: List all styles sorted ascendingly by their identifier.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2///v2/styles
-  tags: Styles
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2styles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/v2styles-get-openapi.md
-- name: Icon Finder Get user details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get user details
+  x-api-slug: get-v2usersuserid-get
   description: Get details about a specific user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2//GET /v2/users/{userID}
-  tags: Users
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/get-v2usersuserid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/get-v2usersuserid-get-openapi.md
-- name: Icon Finder Get user details
-  x-api-slug: icon-finder
+- name: Icon Finder - Get user details
+  x-api-slug: get-v2usersusername-get
   description: Get details about a specific user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
   humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2//GET /v2/users/{username}
-  tags: ',Users,Username'
+  baseURL: https://api.iconfinder.com//v2/
+  tags: Icon, Images, Images, Marketplace, internet, Technology, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/get-v2usersusername-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/get-v2usersusername-get-openapi.md
-- name: Icon Finder
-  x-api-slug: icon-finder
-  description: Iconfinder is the leading search engine and market place for vector
-    icons in SVG, PNG, CSH and AI format..
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg
-  humanURL: http://iconfinder.com
-  baseURL: https://api.iconfinder.com//v2/
-  tags: Iconfinder
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/iconfinder/master/_listings/iconfinder/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ibm.watson.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://iconfinder.stack.network
 - type: x-base
   url: https://www.iconfinder.com/xml/
 - type: x-blog
